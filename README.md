@@ -18,3 +18,5 @@ There are two files for unit tests. The more extensive one is the WeekView.spec.
 
 The second test file is App.spec.ts, where the station selection dropdown menu's rendered content and the dates next to the week navigation arrow icons are verified for their rendered data. This test file requires further improvements; it still needs to test the functionality of the week navigation buttons as well as whether the dates will dynamically change as expected.
 
+For these tests I used mock data for the weekDays array and for the stations+booking data that is fetched from the provided API.
+
