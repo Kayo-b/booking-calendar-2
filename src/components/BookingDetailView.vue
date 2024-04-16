@@ -32,6 +32,7 @@
             clicked: Boolean,
             stationName: String
         },
+        // clicked is a prop that is passed from the parent component to trigger the modal to render.
         watch: {
             clicked() {
                 this.show();
